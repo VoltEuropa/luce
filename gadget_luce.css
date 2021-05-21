@@ -158,10 +158,10 @@
 /* #1D3557, #FFC839, #ffffff */
 .luce-body {
   height: 100%;
-  background-color: #1D3557;
+  background-color: #ffffff;
 }
 .luce-background {
-  background-color: #1D3557;
+  background-color: #ffffff;
 }
 .luce-header {
   background-color: #1D3557;
@@ -174,7 +174,7 @@
   color: #ffffff;
 }
 .luce-footer-wrapper {
-  background-color: #1D3557;  
+  background-color: #ffffff;  
 }
 .luce-footer {
   background-color: #1D3557;
@@ -189,11 +189,18 @@
   color: #1D3557;
 }
 .luce-text {
-  color: #ffffff;
+  color: #1D3557;
   font-family: Ubuntu;
 }
 .luce-card-wide {
   background-color: #1D3557;
+}
+.mdl-cell .luce-image-title {
+  color: #1D3557;
+}
+.luce-share-button,
+.luce-share-align .btn {
+  color: #1D3557;
 }
 
 /* ============================= HEADER ====================================== */
@@ -241,11 +248,23 @@
 .luce-action-bar {
   width: 100%;
   text-align: center;
+  height: 66vh;
+}
+@media only screen and (max-width: 48em) {
+  .luce-action-bar {
+    height: auto;
+  }  
+}
+.luce-cell {
+  box-shadow: none;
 }
 .mdl-cell .luce-button.mdl-button--accent.mdl-button--accent.mdl-button--raised, 
 .mdl-cell .luce-button.mdl-button--accent.mdl-button--accent.mdl-button--fab {
   background-color: #EF784C;
   height: 4em;
+  width: 96%;
+  box-sizing: border-box;
+  left: -.25em;
 }
 .mdl-cell .luce-title {
   font-size: 1.25em;
@@ -253,18 +272,28 @@
   font-family: "League Spartan";
   margin: .5em 0;
   width: 100%;
-  color: #ffffff;
 }
 .mdl-cell .luce-title .luce-cell-link {
   color: #ffffff;
   text-decoration: none;
 }
 .mdl-cell .luce-cell-image {
-  max-width: 90%;
+  height: 60%;
+}
+@media only screen and (max-width: 48em) {
+  .mdl-cell .luce-cell-image {
+    width: 90%;
+    height: auto;
+  }
 }
 .mdl-cell .luce-cell-wrapper {
-  margin-top: 10%;
+  margin-top: 16vh;
   margin-bottom: 5%;
+}
+@media only screen and (max-width: 48em) {
+ .mdl-cell .luce-cell-wrapper {
+    margin-top: 0%;
+  } 
 }
 .mdl-cell .luce-link-wrapper {
   margin-top: 1.5em;
@@ -368,7 +397,6 @@
 
 /* =========================== Logo Bar ======================================*/
 .luce-share-button {
-  color: #ffffff;
   font-size: 1.5em;
 }
 .luce-card-text.luce-share-align {
@@ -379,9 +407,6 @@
   margin: .5em 1em;
   display: inline-block;
   vertical-align: middle;
-}
-.luce-share-align .btn {
-  color: #ffffff;
 }
 
 /* =========================== Logo Bar ======================================*/
