@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" manifest="gadget_sud.appcache">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sud Gadget</title>
+
+    <link rel="stylesheet" href="lib/material_design_lite.1.3.0.min.css" />
+    <link rel="stylesheet" href="gadget_luce.css" />
+
+    <script src="lib/material_design_lite.1.3.0.min.js"></script>
+    
+    <script src="rsvp.latest.min.js"></script>
+    <script src="renderjs.latest.min.js"></script>
+    <script src="gadget_global.min.js"></script>
+    <script src="gadget_luce.js"></script>
+
+  </head>
+  <body>
+    <div class="luce-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="luce-header mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <h1 class="luce-site-header"><span class="luce-sub-title">Liste d'Union Citoyenne et Européenne</span></h1>
+        </div>
+      </header>
+
+      <main class="luce-page-content mdl-layout__content">
+        <div class="luce-background">
+          <img class="luce-logo-banner" src="img/logo_bar.png" alt="Pace-Nous Citoyens-Allons Enfants-Volt" />          
+          
+          <div class="luce-action-bar mdl-grid">
+            <div class="mdl-cell mdl-cell--7-col mdl-cell--12-col-phone mdl-shadow--2dp">
+              <img class="luce-cell-image" src="img/audric.png" alt="Audric ALEXANDRE" />
+              <h2 class="luce-title luce-image-title">Audric ALEXANDRE</h2>
+            </div>
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-phone mdl-shadow--2dp">
+              <div class="luce-cell-wrapper">
+                <h2 class="luce-title luce-button mdl-button mdl-js-button mdl-button--raised mdl-button--accent"><a class="luce-cell-link" href="doc/bulletin_de_vote.pdf" download="bulletin.pdf">Télécharger notre bulletin de vote</a></h2>
+                <h2 class="luce-title luce-button mdl-button mdl-js-button mdl-button--raised mdl-button--accent"><a class="luce-cell-link" target="_blank" href="https://forms.gle/KbBtfh7Mkep5JHXJ7">Faire un don</a></h2>
+                <!--h2 class="luce-title luce-button mdl-button mdl-js-button mdl-button--raised mdl-button--accent"><a class="luce-cell-link" href="">Lire notre programme</a></h2-->
+              </div>
+              
+              <p class="luce-text">Nous suivre</p>
+              
+              <div class="luce-link-wrapper">
+                <div class="pb-2 luce-share-align">
+                  <a class="share-button btn" href="https://www.facebook.com/liste.union.citoyenne.europeenne.hauts.de.france">
+                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                  </a>
+                </div>
+                <div class="pb-2 luce-share-align">
+                  <a class="share-button btn" href="https://twitter.com/LuceHdf">
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                  </a>
+                </div>
+                <div class="pb-2 luce-share-align">
+                  <a class="share-button btn" href="https://www.instagram.com/lucehdf/" >
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--div class="luce-content-section">
+          <h2 class="luce-content-headline">Notre liste</h2>
+
+        </div-->
+
+        <div class="luce-content-section">
+          <h2 class="luce-content-headline">Les dernières actualités</h2>
+          
+          <div class="luce-card-wide luce-card-depot mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title">
+              <h3 class="luce-card-header mdl-card__title-text">2021-05-17<br/>La liste est déposé</h3>
+            </div>
+            <div class="luce-card-text mdl-card__supporting-text">Un souvenir d'hier matin après que nous avons déposé notre liste à la préfecture</div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a href="https://www.facebook.com/sharer/sharer.php?u=https://luce-hdf.fr/" class="luce-card-button-text mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Partager sur Facebook</a>
+              <a href="http://twitter.com/share?url=https://luce-hdf.fr&text=Rassemblement%20de%20mouvements%20citoyens%20pro-européens%20qui%20présentent%20une%20liste%20pour%20les%20élections%20régionales%20en%20Hauts-de-France%20les%2020%20et%2027%20juin%202021%20%23hautsdefrance%20%23regionales%20%23elections" class="luce-card-button-text  mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Partager sur Twitter</a>
+            </div>
+            <div class="mdl-card__menu">
+              <a href="https://www.facebook.com/liste.union.citoyenne.europeenne.hauts.de.france/posts/112976847631254" target="_blank" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                <i class="material-icons">share</i>
+              </a>
+            </div>
+          </div>
+        </div>
+          
+
+        <footer class="luce-footer-wrapper">
+        <div class="luce-footer-bar">
+          <ul class="luce-logo-bar">
+            <li class="luce-logo-bar-entry"><a href="https://www.pace-europe.eu/" target="_blank" class="luce-logo-link"><img class="luce-logo-bar-image" src="img/logo_pace.png" alt="Pace Europa"></a></li>
+            <li class="luce-logo-bar-entry"><a href="https://www.nouscitoyens.fr/" target="_blank" class="luce-logo-link"><img class="luce-logo-bar-image" src="img/logo_nous_citoyens.png" alt="Nous Citoyens France"></a></li>
+            <li class="luce-logo-bar-entry"><a href="https://partiallonsenfants.org/" target="_blank" class="luce-logo-link"><img class="luce-logo-bar-image" src="img/logo_allons_enfants.png" alt="Allons Enfants"></a></li>
+            <li class="luce-logo-bar-entry"><a href="https://www.voltfrance.org/" target="_blank" class="luce-logo-link"><img class="luce-logo-bar-image" src="img/logo_volt.png" alt="Volt France"></a></li>
+          </ul>
+        </div>
+        <div class="luce-footer">
+          <div class="luce-credits sud-credits-end">
+            <span class="luce-footer-text">© 2021 - Créé par</span>&nbsp;
+            <a class="luce-credits-link" href="https://www.voltlille.fr" title="Volt Lille"><img class="sud-publisher" src="img/volt.min.png" alt="Volt Lille" /></a>
+            <span class="luce-footer-text">,</span>&nbsp;
+            <span class="luce-footer-text">hébergé sur</span>&nbsp;
+            <a class="luce-credits-link" href="https://github.com/VoltEuropa/Luce">Github</a>
+            <span class="luce-footer-text">.</span>&nbsp;
+            <span class="luce-footer-text">Fait avec</span>
+            <a class="luce-credits-link" href="https://renderjs.nexedi.com/">RenderJS</a>
+            <span class="">.</span>
+          </div>
+        </div>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
+
+
