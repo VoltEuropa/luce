@@ -408,6 +408,33 @@
   text-align: center;
   padding-top: .5em;
 }
+.luce-publisher {
+  max-width: 3em;
+  margin-top: -5px;
+}
+.luce-footer {
+  padding: 1em 0;
+}
+.luce-credits {
+  font-family: "Ubuntu";
+  font-size: .9em;
+  display: block;
+  margin: 0 auto;
+  text-align: right;
+  padding-right: .5em;
+  color: #ffffff;
+  text-align: center;
+}
+.luce-credits-end {
+  text-align: center;
+}
+.text-center {
+  text-align: center;
+}
+.luce-credits-link {
+  color: #ffffff;
+}
+
 /* =========================== Footer ======================================*/
 .luce-footer {
   padding: 1em 0;
