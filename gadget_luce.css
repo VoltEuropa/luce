@@ -147,11 +147,14 @@
 .fa-linkedin:before {
     content: "\f0e1";
 }
-.fa-envelope:before {
-    content: "\f0e0";
-}
 .fa-instagram:before {
   content: "\f16d"; 
+}
+.fa-envelope:before {
+  content: "\f0e0";
+}
+.fa-envelope-open:before {
+  content: "\f2b6";
 }
 
 /* ============================= THEMEING =================================== */
@@ -287,7 +290,7 @@
   }
 }
 .mdl-cell .luce-cell-wrapper {
-  margin-top: 16vh;
+  margin-top: 12vh;
   margin-bottom: 5%;
 }
 @media only screen and (max-width: 48em) {
@@ -297,6 +300,7 @@
 }
 .mdl-cell .luce-link-wrapper {
   margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 /* ============================= CONTENT SECTION ================================= */
@@ -364,6 +368,11 @@
 .luce-card-wide.mdl-card {
   width: 512px;
 }
+@media only screen and (max-width: 48em) {
+  .luce-card-wide.mdl-card {
+    width: 100%;
+  }
+}
 .luce-card .mdl-card__supporting-text {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -393,6 +402,18 @@
 }
 .luce-card-button-text {
   color: #FFC839;
+}
+.share-button .material-icons {
+  vertical-align: middle;
+  display: inline-block;
+}
+.material-icon-text {
+  font-family: Ubuntu;
+  font-size: .75em;
+  padding-left: .5em;
+  display: inline-block;
+  vertical-align: bottom;
+  text-decoration: none;
 }
 
 /* =========================== Logo Bar ======================================*/
