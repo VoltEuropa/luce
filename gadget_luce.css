@@ -272,6 +272,14 @@
   box-sizing: border-box;
   left: -.25em;
 }
+.luce-download.mdl-button {
+  background-color: #EF784C !important;
+  height: 4em;
+  width: auto;
+  box-sizing: border-box;
+  font-family: "League Spartan";
+  line-height: 4em;
+}
 .mdl-cell .luce-title {
   font-size: 1.25em;
   line-height: 4em;
