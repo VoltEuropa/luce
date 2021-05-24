@@ -199,7 +199,7 @@
   background-color: #1D3557;
 }
 .mdl-cell .luce-image-title {
-  color: #1D3557;
+  color: #ffffff;
 }
 .luce-share-button,
 .luce-share-align .btn {
@@ -248,10 +248,13 @@
   }
 }
 /* ============================= ACTION BAR ================================= */
+.luce-team-picture {
+  width: 100%;
+}
 .luce-action-bar {
   width: 100%;
   text-align: center;
-  height: 66vh;
+  height: 84vh; /* sigh...*/
 }
 @media only screen and (max-width: 48em) {
   .luce-action-bar {
@@ -275,6 +278,11 @@
   font-family: "League Spartan";
   margin: .5em 0;
   width: 100%;
+}
+.mdl-cell .luce-image-title {
+  position: relative;
+  top: -3.5em;
+  font-size: 2.5em;
 }
 .mdl-cell .luce-title .luce-cell-link {
   color: #ffffff;
@@ -377,6 +385,7 @@
   font-family: 'Ubuntu';
   color: #1D3557;
   text-align: left;
+  font-size: 1.25em;
 }
 
 /* ========================== ACTUALITIES ====================================*/
