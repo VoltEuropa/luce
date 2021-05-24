@@ -331,7 +331,7 @@
   text-align: center;
   /* column-count: 2; */
   width: 65%;
-  margin: .75em auto 0;
+  margin: 12vh auto 2em;
 }
 .luce-card {
   display: inline-block;
@@ -359,18 +359,46 @@
   font-size: 1.5em;
 }
 
+/* ========================== ACTUALITIES ====================================*/
+.luce-card-programme {
+  margin: .5em 0;
+  width: 100%;
+  padding: 0 1em;
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+}
+.luce-card-programme .mdl-card__title-text {
+  font-family: 'League Spartan';
+  font-size: 1.25em;
+  color: #EF784C;
+  text-transform: uppercase;
+}
+.luce-card-programme .luce-card-supporting-text {
+  font-family: 'Ubuntu';
+  color: #1D3557;
+  text-align: left;
+}
 
 /* ========================== ACTUALITIES ====================================*/
 .luce-content-headline {
   font-family: "League Spartan";
   font-size: 1.5em;
 }
+.luce-content-subheader {
+  font-family: "League Spartan";
+  font-size: 1.25em;
+}
 .luce-card-wide.mdl-card {
-  width: 512px;
+  width: 40%;
+  margin: 2vh 2%;
+  display: inline-block;
+  height: 76vh;
 }
 @media only screen and (max-width: 48em) {
   .luce-card-wide.mdl-card {
     width: 100%;
+    display: block;
+    margin: 2vh 0;
   }
 }
 .luce-card .mdl-card__supporting-text {
@@ -382,6 +410,11 @@
   height: 26em;
   background: url('img/depot.jpg') center / cover;
 }
+.luce-card-portrait > .mdl-card__title {
+  color: #fff;
+  height: 26em;
+  background: url('img/portrait.png') center / cover;
+}
 .luce-card-wide > .mdl-card__menu {
   color: #fff;
 }
@@ -389,6 +422,11 @@
 .luce-card-text,
 .luce-card-button-text {
   font-family: Ubuntu;
+}
+.luce-card-header {
+  text-align: left;
+  position: relative;
+  top: -3em;
 }
 .luce-card-text {
   font-size: 1.25em;
