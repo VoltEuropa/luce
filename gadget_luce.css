@@ -432,6 +432,12 @@
   height: 26em;
   background: url('img/portrait.png') center / cover;
 }
+.luce-card-debat > .mdl-card__title {
+  color: #fff;
+  height: 26em;
+  background: url('img/debat_club_de_press.png') center / cover;
+}
+
 .luce-card-wide > .mdl-card__menu {
   color: #fff;
 }
@@ -486,6 +492,9 @@
 }
 
 /* =========================== Logo Bar ======================================*/
+.luce-footer-bar .luce-content-headline {
+  text-align: center;
+}
 .luce-footer-wrapper {
   margin-top: 2em;
 }
