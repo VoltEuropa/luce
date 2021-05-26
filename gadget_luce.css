@@ -251,6 +251,44 @@
 .luce-team-picture {
   width: 100%;
 }
+.luce-head-grid {
+  text-align: center;
+  margin: 0 auto;
+}
+.luce-card-image__filename {
+  font-family: Ubuntu;
+}
+.luce-card-image.mdl-card {
+  width: 100%;
+  height: auto;
+}
+.luce-nord {
+  background: url('img/pierre.jpg') center / cover;
+}
+.luce-pdc {
+  background: url('img/audric_new.png') center / cover;
+}
+.luce-somme {
+  background: url('img/philippe.jpg') center / cover;
+}
+.luce-aisne {
+  background: url('img/alban.jpg') center / cover;
+}
+.luce-oise {
+  background: url('img/yveta.jpg') center / cover;
+}
+.luce-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+  padding-bottom: 48px;
+}
+.luce-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
 .luce-action-bar {
   width: 100%;
   text-align: center;
