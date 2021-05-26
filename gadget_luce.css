@@ -387,6 +387,9 @@
   width: 65%;
   margin: 12vh auto 2em;
 }
+.luce-content-section-programme {
+  width: 100%;
+}
 .luce-card {
   display: inline-block;
   margin: 2em 2em 0;
@@ -395,7 +398,8 @@
   width: 100%;
 }
 @media only screen and (max-width: 48em) {
-  .luce-content-section {
+  .luce-content-section,
+  .luce-content-section-programme {
     width: 100%;
     /* column-count: auto; */
   }
