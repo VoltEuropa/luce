@@ -384,12 +384,10 @@
 .luce-content-section {
   text-align: center;
   /* column-count: 2; */
-  width: 65%;
+  width: 70%;
   margin: 12vh auto 2em;
 }
-.luce-content-section-programme {
-  width: 100%;
-}
+
 .luce-card {
   display: inline-block;
   margin: 2em 2em 0;
@@ -399,7 +397,8 @@
 }
 @media only screen and (max-width: 48em) {
   .luce-content-section,
-  .luce-content-section-programme {
+  .luce-content-section-programme,
+  .luce-content-section-news {
     width: 100%;
     /* column-count: auto; */
   }
@@ -479,6 +478,12 @@
   height: 26em;
   background: url('img/debat_club_de_press.png') center / cover;
 }
+.luce-card-lvdn > .mdl-card__title {
+  color: #fff;
+  height: 26em;
+  background: url('img/audric_lvdn.jpg') center / cover;
+}
+
 
 .luce-card-wide > .mdl-card__menu {
   color: #fff;
