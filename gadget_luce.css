@@ -488,6 +488,11 @@
   height: 26em;
   background: url('img/audric_beaux_arts.jpg') center / cover;
 }
+.luce-card-port > .mdl-card__title {
+  color: #fff;
+  height: 26em;
+  background: url('img/port.jpg') center / cover;
+}
 
 .luce-card-wide > .mdl-card__menu {
   color: #fff;
