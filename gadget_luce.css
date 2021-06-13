@@ -333,6 +333,7 @@
 .mdl-cell .luce-title .luce-cell-link {
   color: #ffffff;
   text-decoration: none;
+  display: block;
 }
 .mdl-cell .luce-cell-image {
   height: 60%;
