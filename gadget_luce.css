@@ -499,6 +499,11 @@
   height: 26em;
   background: url('img/confrontation.png') center / cover;
 }
+.luce-card-actu > .mdl-card__title {
+  color: #fff;
+  height: 26em;
+  background: url('img/actu.jpg') center / cover;
+}
 
 .luce-card-wide > .mdl-card__menu {
   color: #fff;
