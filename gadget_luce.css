@@ -509,6 +509,11 @@
   height: 26em;
   background: url('img/pepere.jpg') center / cover;
 }
+.luce-card-pierre > .mdl-card__title {
+  color: #fff;
+  height: 26em;
+  background: url('img/pierre.jpg') center / cover;
+}
 
 
 .luce-card-wide > .mdl-card__menu {
